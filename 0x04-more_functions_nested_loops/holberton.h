@@ -12,4 +12,3 @@ extern void print_diagonal(int n);
 extern void print_square(int size);
 extern void print_triangle(int size);
 #endif
-
