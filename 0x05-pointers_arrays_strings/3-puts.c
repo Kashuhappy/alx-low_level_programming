@@ -1,14 +1,17 @@
-include "holberton.h"
+#include "holberton.h"
+#include "stdio.h"
 /**
-* _puts - prints a string followed by a new line to stdout
-* @str: string to be printed
+* _puts - Print entire string
+* @str: String to be printed
+* Return: Always 0.
 */
 void _puts(char *str)
 {
-while (*str)
+int i;
+while (*(str + i))
 {
-_putchar(*str);
-str++;
+_putchar(str[i]);
+i++;
 }
 _putchar('\n');
 }
