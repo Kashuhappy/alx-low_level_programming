@@ -12,7 +12,7 @@ while (current)
 next = current->next;
 free(current->str);
 free(current);
-current = next:
+current = next :
 }
-head = NULL;  
+head = NULL;
 }
